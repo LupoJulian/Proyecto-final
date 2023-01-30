@@ -1,0 +1,39 @@
+@import "./_variables-etc.scss";
+
+body{
+
+    padding-top: 100px;
+    @extend .ImagenFondo;
+    background-image: url(../assets/Images/aH4Fb5.webp);
+    main{
+        div{
+            border-radius: 25px;
+            border-style: groove;
+            border-color: black
+        }
+    }
+    div{
+        article{
+            h2{
+                @extend .titulo;
+            };
+            div{
+                @extend .articulos;
+                
+                p{
+                    @extend .parrafo;
+                };
+            };
+        };
+    };
+    footer{
+        padding-top: 50px;
+        div{
+            background-color: rgba(0, 0, 0, 0.915);
+            h2{
+                @extend .titulo;
+            }
+        }
+    }
+
+};

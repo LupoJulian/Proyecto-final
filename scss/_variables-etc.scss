@@ -1,0 +1,73 @@
+.ImagenFondo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.titulo {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px; }
+  
+.parrafo {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    border-style: groove;
+    border-color: #BF9850;
+    background-color: rgba(0, 0, 0, 0.903); }
+    
+  
+.articulos {
+    padding: 20px;
+    height: fit-content; }
+  
+.carrusel {
+    height: 400px;
+    width: 400px;
+    margin: auto; }
+
+
+  //CLASES PAGINA WARFRAME
+
+.Warframe{
+    @extend .ImagenFondo;
+    background-image:url(../assets/Images/3715972-wf_tennolivescreenshot_deimoslandscape-tendrils_4k.jpg);
+};
+.TituloWarframe{
+    @extend .titulo;
+    font-family: 'Orbitron', sans-serif;
+}
+
+//CLASES PARA ALIEN
+.Alien{
+    @extend .ImagenFondo;
+    background-image:url(../assets/Images/c11898d11b0e085e65f908975abdc84b.jpg);
+}
+.TituloAlien{
+    @extend .titulo;
+    font-family: 'Audiowide', cursive;
+}
+  
+
+//CLASES PARA PROPIO
+.Propio{
+    @extend .ImagenFondo;
+    background-image: url(../assets/Images/FsY6H.jpg);
+};
+.TituloPropio{
+    @extend .titulo;
+    font-family: 'Bebas Neue', cursive;
+};
+
+//CLASES PARA YO (JA SUENA RE MAL RE BRUTO)
+
+.Yo{
+    @extend .ImagenFondo;
+    background-image: url(../assets/Images/Easy-Particle-Animations-In-JavaScript-ab-particles.webp);
+}
+.TituloYo{
+    @extend .titulos;
+    font-family: 'Lato', sans-serif;
+}

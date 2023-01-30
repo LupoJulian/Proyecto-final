@@ -1,0 +1,61 @@
+.ImagenFondo, .Warframe, .Alien, .Propio, .Yo, body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+
+.titulo, .TituloWarframe, .TituloAlien, .TituloPropio, body div article h2, body footer div h2 {
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px; }
+
+.parrafo, body div article div p {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 40px;
+  padding: 15px;
+  border-style: groove;
+  border-color: #BF9850;
+  background-color: rgba(0, 0, 0, 0.903); }
+
+.articulos, body div article div {
+  padding: 20px;
+  height: fit-content; }
+
+.carrusel {
+  height: 400px;
+  width: 400px;
+  margin: auto; }
+
+.Warframe {
+  background-image: url(../assets/Images/3715972-wf_tennolivescreenshot_deimoslandscape-tendrils_4k.jpg); }
+
+.TituloWarframe {
+  font-family: 'Orbitron', sans-serif; }
+
+.Alien {
+  background-image: url(../assets/Images/c11898d11b0e085e65f908975abdc84b.jpg); }
+
+.TituloAlien {
+  font-family: 'Audiowide', cursive; }
+
+.Propio {
+  background-image: url(../assets/Images/FsY6H.jpg); }
+
+.TituloPropio {
+  font-family: 'Bebas Neue', cursive; }
+
+.Yo {
+  background-image: url(../assets/Images/Easy-Particle-Animations-In-JavaScript-ab-particles.webp); }
+
+body {
+  padding-top: 100px;
+  background-image: url(../assets/Images/aH4Fb5.webp); }
+  body main div {
+    border-radius: 25px;
+    border-style: groove;
+    border-color: black; }
+  body footer {
+    padding-top: 50px; }
+    body footer div {
+      background-color: rgba(0, 0, 0, 0.915); }
